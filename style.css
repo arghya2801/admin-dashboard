@@ -1,12 +1,39 @@
 * {
     margin: 0px;
+    font-family: "Robotto", sans-serif;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
 }
 
 .sidebar {
-    padding: 10px;
+    padding: 50px;
     background-color: #1992d4;
     width: 300px;
     height: 100vh;
     color: white;
     font-size: large;
+    /* font-weight: 900; */
+    /* font-family:Arial, Helvetica, sans-serif; */
 }
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 10px;
+}
+
+.menu-list-1 {
+    /* padding: 50px; */
+    margin-top: 50px;
+}
+
+.menu-list-2 {
+    /* padding: 50px; */
+    margin-top: 50px;
+}
+
