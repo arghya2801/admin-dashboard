@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+}
+
+.sidebar {
+    padding: 10px;
+    background-color: #1992d4;
+    width: 300px;
+    height: 100vh;
+    color: white;
+    font-size: large;
+}
