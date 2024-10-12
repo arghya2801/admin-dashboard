@@ -15,8 +15,23 @@
     height: 100vh;
     color: white;
     font-size: large;
-    /* font-weight: 900; */
-    /* font-family:Arial, Helvetica, sans-serif; */
+}
+
+.sidebar img {
+    filter: brightness(0) invert(1);
+    width: 40px;
+    height: auto;
+}
+
+.logo {
+    font-size: 22px;
+    margin-bottom: 75px;
+}
+
+.logo h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sidebar ul {
@@ -25,6 +40,15 @@
 
 .sidebar ul li {
     margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li img {
+    filter: brightness(0) invert(1);
+    padding-right: 15px;
+    width: 25px;
+    height: auto;
 }
 
 .menu-list-1 {
