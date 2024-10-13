@@ -149,13 +149,35 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    background-color: red;
     padding: 10px;
 }
 
-.project-items {
+.project-item {
     margin: 10px;
     padding: 10px;
     background-color: white;
 }
 
+.announcement-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
+    padding: 10px;
+}
+
+.announcement-item {
+    padding: 5px;
+    background-color: white;
+}
+
+.trending-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
+    padding: 10px;
+}
+
+.trending-item {
+    padding: 5px;
+    background-color: white;
+}
