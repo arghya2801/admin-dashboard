@@ -163,6 +163,18 @@
     font-size: 16px;
 }
 
+.body .announcements h3 {
+    font-size: 12px;
+}
+
+.body .trending h3 {
+    font-size: 14px;
+}
+
+.body .trending p {
+    font-size: 12px;
+}
+
 .project-container {
     grid-column: 1;
     grid-row: 1 / span 2;
@@ -218,6 +230,6 @@
 }
 
 .card-left-image {
-    width: 45px;
+    width: 40px;
     height: auto;
 }
