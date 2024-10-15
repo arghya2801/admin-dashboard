@@ -75,6 +75,16 @@
     padding: 20px;
 }
 
+.top-row-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-row-right .notification img {
+    padding-top: 20px;
+}
+
 .top-row img {
     filter: brightness(0);
     padding: 15px;
@@ -232,4 +242,5 @@
 .card-left-image {
     width: 40px;
     height: auto;
+    padding-right: 5px;
 }
